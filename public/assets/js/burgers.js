@@ -14,6 +14,7 @@ $(function() {
         data: {id, newEatState}
       }).then(
         function(res) {
+          console.log(newEatState);
           console.log(res);
           console.log("changed devoured to", newEat);
           // Reload the page to get the updated list
